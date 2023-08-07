@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Course</title>
+    <style>
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.course {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.course h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+#course-details {
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+</style>
+</head>
+
+<body>
+    <header>
+        <h1>Web Development Course</h1>
+ <nav>
+            <ul>
+                <li><a href="file:///C:/Users/admin/Desktop/web%20course%20final%20assessment.html" target="blank">Home</a></li>
+                <li><a href="file:///C:/Users/admin/Desktop/courses%20details.html" target="blank">Courses</a></li>
+                <li><a href="file:///C:/Users/admin/Desktop/student%20details.html" target="blank">Payment Details</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="overview">
+            <h2>Course Overview</h2>
+            <p>This web development course covers HTML, CSS, and JavaScript fundamentals.</p>
+        </section>
+
+        <section id="crash-courses">
+            <h2>Crash Courses</h2>
+            <div class="course" id="html">
+                <h3>HTML Crash Course</h3>
+                <p>An introduction to HTML, the standard markup language for creating web pages.</p>
+            </div>
+
+            <div class="course" id="css">
+                <h3>CSS Crash Course</h3>
+                <p>Learn CSS, the language used for styling web pages and applications.</p>
+            </div>
+
+            <div class="course" id="javascript">
+                <h3>JavaScript Crash Course</h3>
+                <p>Explore the basics of JavaScript, a powerful scripting language for web development.</p>
+            </div>
+        </section>
+
+        <section id="course-details" class="hidden">
+            <h2>Course Details</h2>
+            <div id="course-content"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
